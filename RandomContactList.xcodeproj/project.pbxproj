@@ -60,12 +60,12 @@
 		682A662D2787529500BC8743 /* RandomContactList */ = {
 			isa = PBXGroup;
 			children = (
-				682E49982788FD2300B352D0 /* Resources */,
-				682A66442787535C00BC8743 /* App */,
-				682A664827877AE300BC8743 /* Managers */,
-				682A664527877A6A00BC8743 /* Model */,
 				682A66422787532F00BC8743 /* ViewControllers */,
 				682A66432787534300BC8743 /* Storyboards */,
+				682A664827877AE300BC8743 /* Managers */,
+				682A664527877A6A00BC8743 /* Model */,
+				682E49982788FD2300B352D0 /* Resources */,
+				682A66442787535C00BC8743 /* App */,
 			);
 			path = RandomContactList;
 			sourceTree = "<group>";
