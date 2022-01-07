@@ -60,13 +60,12 @@
 		682A662D2787529500BC8743 /* RandomContactList */ = {
 			isa = PBXGroup;
 			children = (
+				682E49982788FD2300B352D0 /* Resources */,
 				682A66442787535C00BC8743 /* App */,
 				682A664827877AE300BC8743 /* Managers */,
 				682A664527877A6A00BC8743 /* Model */,
 				682A66422787532F00BC8743 /* ViewControllers */,
 				682A66432787534300BC8743 /* Storyboards */,
-				682A66372787529A00BC8743 /* Assets.xcassets */,
-				682A663C2787529A00BC8743 /* Info.plist */,
 			);
 			path = RandomContactList;
 			sourceTree = "<group>";
@@ -82,8 +81,8 @@
 		682A66432787534300BC8743 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				682A66392787529A00BC8743 /* LaunchScreen.storyboard */,
 				682A66342787529500BC8743 /* Main.storyboard */,
+				682A66392787529A00BC8743 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -93,6 +92,7 @@
 			children = (
 				682A662E2787529500BC8743 /* AppDelegate.swift */,
 				682A66302787529500BC8743 /* SceneDelegate.swift */,
+				682A663C2787529A00BC8743 /* Info.plist */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -111,6 +111,14 @@
 				682A664927877AF500BC8743 /* DataManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		682E49982788FD2300B352D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				682A66372787529A00BC8743 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,7 +347,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K889TCMG57;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RandomContactList/Info.plist;
+				INFOPLIST_FILE = RandomContactList/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -367,7 +375,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K889TCMG57;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RandomContactList/Info.plist;
+				INFOPLIST_FILE = RandomContactList/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
