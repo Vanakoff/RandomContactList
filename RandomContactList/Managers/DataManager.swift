@@ -23,15 +23,15 @@ struct DataManager {
     ]
     let emails = [
     "swift@apple.com", "money@business.org", "space@cosmos.ru",
-    "darth.vaderd@starwars.universe", "earth@water.com", "telecaster@fender.com",
+    "darth.vader@starwars.universe", "earth@water.com", "telecaster@fender.com",
     "guitar@gibson.com", "hokus@pokus.trick", "iphone@apple.com",
     "jackson@michael.com"
     ]
     let phones = [
-    "+(77) 777-77-77", "+49-123-45-67", "+38-0572-69-27-03",
-    "55-555-55-55", "+39-789-89-89", "+(049)-78-00-777",
-    "+(039) 123-45-67", "555-55-77-8", "123-123-123",
-    "+(077) 777-77-88"
+    "+77-777-77-77", "+49-123-45-67", "+38-0572-692-703",
+    "55-555-55-55", "+39-789-89-89", "+49-78-00-777",
+    "+039 123-45-67", "555-55-77-8", "123-123-123",
+    "+077-777-77-88"
     ]
     
     private init() {}
