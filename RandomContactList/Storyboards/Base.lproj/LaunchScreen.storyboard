@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.fill.checkmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="rKp-cG-7Jw">
-                                <rect key="frame" x="87.5" y="250" width="200" height="167"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.crop.rectangle.stack.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="rKp-cG-7Jw">
+                                <rect key="frame" x="87.5" y="248" width="200" height="170.5"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="O61-Hc-1Kz"/>
@@ -63,7 +63,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="person.fill.checkmark" catalog="system" width="128" height="88"/>
+        <image name="person.crop.rectangle.stack.fill" catalog="system" width="128" height="122"/>
         <systemColor name="systemGray6Color">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

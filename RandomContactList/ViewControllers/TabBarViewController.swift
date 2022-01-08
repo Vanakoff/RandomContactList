@@ -16,10 +16,10 @@ class TabBarViewController: UITabBarController {
     
     private func setupViewControllers() {
         let persons = Person.getContactList()
-      //  guard let contactListVC = viewControllers?.first as? ContactListTableViewController else { return }
-        let contactListVC = viewControllers?.first as! ContactListTableViewController
-       // guard let sectioListVC = viewControllers?.last as? SectionTableViewController else { return }
-        let sectioListVC = viewControllers?.last as! SectionTableViewController 
+        guard let contactListVC = viewControllers?.first as? ContactListTableViewController else { return }
+       // let contactListVC = viewControllers?.first as! ContactListTableViewController
+        guard let sectioListVC = viewControllers?.last as? SectionTableViewController else { return }
+     //   let sectioListVC = viewControllers?.last as! SectionTableViewController 
         
         contactListVC.persons = persons
         sectioListVC.persons = persons
